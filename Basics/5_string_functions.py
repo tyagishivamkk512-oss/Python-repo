@@ -24,3 +24,9 @@ n = "1234567890"
 #print(n[:6])  print from index 0 to 5 
 #print(n[-1])  print last digit basically reverse index
 print(n[::2]) #will print whole n by gap of 2
+
+# if we want to join a list to our string 
+my_list = ['a'] * 5
+
+my_string = ''.join(my_list)
+print(my_string)
