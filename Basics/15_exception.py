@@ -14,3 +14,9 @@ except Exception: # takes every error possible
 
 finally: # runs everytime
     print("...")
+
+# we can also use else with exception to print something if exception doesn't occur
+# and we can raise exceptions like 
+# age = -5
+# if age < 0:
+#   raise ValueError("Age can't be negative")
